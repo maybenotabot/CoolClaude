@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolClaude Privacy Policy</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+            background: #fafafa;
+        }
+        h1 {
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+            font-size: 2rem;
+        }
+        .last-updated {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: #1a1a1a;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        ul {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        .highlight {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 1rem;
+            margin: 1.5rem 0;
+        }
+        .does-not {
+            color: #c62828;
+        }
+        code {
+            background: #eee;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #ddd;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>CoolClaude Privacy Policy</h1>
+    <p class="last-updated">Last updated: January 2026</p>
+
+    <div class="highlight">
+        <strong>Summary:</strong> CoolClaude does not collect, store, or transmit any personal data. All preferences are stored locally on your device.
+    </div>
+
+    <h2>What CoolClaude Does</h2>
+    <p>CoolClaude is a browser extension that lets you customize the background color of claude.ai. The extension:</p>
+    <ul>
+        <li>Injects CSS to change background color variables on claude.ai</li>
+        <li>Stores your color preferences locally using Chrome's sync storage</li>
+        <li>Uses a MutationObserver to maintain colors when the page updates</li>
+    </ul>
+
+    <h2>What CoolClaude Does NOT Do</h2>
+    <ul>
+        <li class="does-not">Does not read, collect, or access any of your conversations or messages</li>
+        <li class="does-not">Does not track your usage or behavior on claude.ai</li>
+        <li class="does-not">Does not send any data to external servers</li>
+        <li class="does-not">Does not modify any content other than background colors</li>
+        <li class="does-not">Does not include any analytics, telemetry, or tracking code</li>
+        <li class="does-not">Does not access any personal information</li>
+    </ul>
+
+    <h2>Permissions Explained</h2>
+    <ul>
+        <li><code>storage</code> — Saves your color preferences locally on your device</li>
+        <li><code>activeTab</code> — Allows applying colors to the current claude.ai tab</li>
+        <li><code>host_permissions (claude.ai)</code> — Required to inject the color-changing CSS</li>
+    </ul>
+
+    <h2>Data Storage</h2>
+    <p>Your color preferences and saved presets are stored locally using Chrome's <code>chrome.storage.sync</code> API. This data:</p>
+    <ul>
+        <li>Stays on your device (or syncs across your own Chrome instances if you're signed in)</li>
+        <li>Is never sent to CoolClaude developers or any third party</li>
+        <li>Can be deleted at any time by removing the extension</li>
+    </ul>
+
+    <h2>Third-Party Services</h2>
+    <p>CoolClaude does not use any third-party services, analytics platforms, or external APIs.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>If this privacy policy changes, the updated version will be posted here with a new "Last updated" date.</p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about this privacy policy, you can open an issue on the project's repository or contact the developer through the Chrome Web Store listing.</p>
+
+    <footer>
+        <p>CoolClaude is open source. You can inspect all code to verify these claims.</p>
+    </footer>
+</body>
+</html>
