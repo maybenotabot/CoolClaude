@@ -1,2 +1,2 @@
-# CoolClaude-README
+# CoolClaude
 Home of the CoolClaude browser extension
