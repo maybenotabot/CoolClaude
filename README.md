@@ -35,7 +35,7 @@ CoolClaude is open source. Once installed, you can inspect all of the extension'
 
 ## Privacy
 
-CoolClaude does not collect, store, or transmit any personal data. Read the full [Privacy Policy](privacy-policy.html).
+CoolClaude does not collect, store, or transmit any personal data. Read the full [Privacy Policy](https://maybenotabot.github.io/CoolClaude/privacy-policy.html).
 
 ## License
 
