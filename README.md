@@ -21,8 +21,8 @@ The extension only modifies background colors. It never reads your conversations
 
 ## Installation
 
-### Chrome
-Coming soon
+### Chrome / Brave
+https://chrome.google.com/webstore/detail/okeodokdllkjmhkeolofaemlkhekgibh
 
 ### Firefox
 Coming soon
