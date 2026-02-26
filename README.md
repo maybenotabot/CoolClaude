@@ -25,7 +25,7 @@ The extension only modifies background colors. It never reads your conversations
 https://chrome.google.com/webstore/detail/okeodokdllkjmhkeolofaemlkhekgibh
 
 ### Firefox
-Coming soon
+https://addons.mozilla.org/en-US/firefox/addon/coolclaude/
 
 
 ## Source Code
